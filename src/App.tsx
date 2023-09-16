@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button"
+import { Header } from "@/components/app"
+import { Textarea } from "@/components/ui"
 
 export function App() {
   return (
-    <>
-      <h1>Hello World!</h1>
-      <Button>Click me</Button>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+    </div>
   )
 }
+
+// 51
